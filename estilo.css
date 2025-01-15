@@ -1,0 +1,29 @@
+span {
+
+    color:#037BC0
+}
+
+div {
+    width: 1080px;
+    height: 566px;
+}
+
+
+.element 
+{
+    width: 300px;
+     height: 300px;
+border: 1px solid #000000;
+color:white;
+background-color: rgb(49, 49, 233);
+text-align: center;
+font-style: normal;
+}
+
+button {
+    color:white;
+    background-color: rgb(11, 202, 11);
+    padding:6px;
+    text-align: center;
+    font-style: italic;
+}
