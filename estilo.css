@@ -12,7 +12,7 @@ span {
 }
 
 div {
-    max-width: 100%; /* Asegura que las imágenes no excedan su contenedor */
+    width: 100%; /* Asegura que las imágenes no excedan su contenedor */
     height: auto;    /* Mantiene la proporción */
     border-collapse: separate;
     border-spacing: 0 15px; /* Espacio entre filas (15px) */
@@ -125,7 +125,7 @@ table {
 
 
     width: 100%; /* Asegura que las imágenes no excedan su contenedor */
-    height: auto;    /* Mantiene la proporción */
+    height: 200px;    /* Mantiene la proporción */
     border-collapse: separate;
     border-spacing: 0 15px; /* Espacio entre filas (15px) */
 
@@ -140,3 +140,7 @@ table {
 
 
 
+td{
+    max-width: 100%; /* Asegura que las imágenes no excedan su contenedor */
+    height: auto;    /* Mantiene la proporción */
+}
