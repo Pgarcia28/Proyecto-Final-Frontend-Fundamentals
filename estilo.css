@@ -1,29 +1,142 @@
+nav {
+    display: flex;
+    flex-grow: 6;
+    justify-content: space-evenly;
+}
+
+
+
 span {
 
     color:#037BC0
 }
 
 div {
-    width: 1080px;
-    height: 566px;
+    max-width: 100%; /* Asegura que las imágenes no excedan su contenedor */
+    height: auto;    /* Mantiene la proporción */
+    border-collapse: separate;
+    border-spacing: 0 15px; /* Espacio entre filas (15px) */
 }
 
 
 .element 
 {
-    width: 300px;
-     height: 300px;
-border: 1px solid #000000;
+display: flex;
+
 color:white;
 background-color: rgb(49, 49, 233);
+flex:1;
 text-align: center;
-font-style: normal;
+justify-content: space-evenly;
+align-items: center;
+column-gap: auto;
+padding: 0px;
+flex-direction: column;
+height: auto;
+width: 100%;
+flex-grow: 2;
 }
-
 button {
     color:white;
     background-color: rgb(11, 202, 11);
     padding:6px;
     text-align: center;
-    font-style: italic;
+  
 }
+
+
+img {
+    max-width: 100%; /* Asegura que las imágenes no excedan su contenedor */
+    height: auto;    /* Mantiene la proporción */
+    
+   }
+
+
+h1 {
+    font-size:15;
+    font-family: "Noto Sans Hatran", serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+}
+
+h2 {
+  
+    font-family: "Noto Sans Hatran", serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  max-width: 100%; 
+  height: auto;  
+  text-align: center;
+  
+}
+
+h3 {
+   
+    font-family: "Noto Sans Hatran", serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  min-width: 100%; 
+  height: auto;  
+  text-align: center;
+
+}
+
+body {
+  
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  border-image-width: 1.6rem;
+  line-height: 2;
+
+}
+
+.hero {
+    border-image-width: 25rem;
+    object-position: cover;
+}
+
+header {
+    display: flex;
+   flex-grow: 1;
+   justify-content:center;
+
+}
+
+
+
+footer {
+ display: flex;
+ text-align: center;
+justify-content: space-evenly;
+align-items: baseline;
+gap: auto;
+padding: 10px;
+flex-direction: column;
+height: auto;
+max-width: 100%;
+}
+
+table {
+
+
+    width: 100%; /* Asegura que las imágenes no excedan su contenedor */
+    height: auto;    /* Mantiene la proporción */
+    border-collapse: separate;
+    border-spacing: 0 15px; /* Espacio entre filas (15px) */
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow: column wrap;
+    justify-content: baseline;
+}
+
+
+
